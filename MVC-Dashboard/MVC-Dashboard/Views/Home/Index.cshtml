@@ -1,0 +1,122 @@
+﻿@section topCSS{
+    <style>
+
+        .container .row {
+            margin-top: 10px;
+        }
+
+            .container .row .col-md-4 {
+                /*background-color:#00f;*/
+                border: 1px solid #000;
+                height: 100px;
+                box-shadow: 2px 2px #ccc;
+                display: flex;
+            }
+
+                .container .row .col-md-4 p {
+                    margin: auto 10px auto auto;
+                    font-size: 3rem;
+                }
+
+        .container h2 {
+            margin: auto;
+            /*background-color:#f00;*/
+        }
+    </style>
+}
+
+
+
+<div class="TitleInformation"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>營業額</h2>
+            <p>1000</p>
+        </div>
+        <div class="col-md-4">
+            <h2>訂單總數</h2>
+            <p>500</p>
+        </div>
+        <div class="col-md-4">
+            <h2>會員數量</h2>
+            <p>100</p>
+        </div>
+    </div>
+    <canvas id="WeekPrice"></canvas>
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="piechart"></canvas>
+        </div>
+        <div class="col-md-6">
+            <canvas id="doughnutchart"></canvas>
+        </div>
+    </div>
+</div>
+<script>
+    //當周價錢長條圖
+    var ctx = document.getElementById("WeekPrice");
+    var chart = new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: ['星期一', '星期二', '星期三', '星期四', '星期五', '星期六', '星期日'],
+            datasets: [{
+                label: "LiveDinner",
+                data: [5000, 4030, 5303, 4200, 5090 ,3095, 4560],
+                fill: false,
+                backgroundColor: 'rgba(255,165,0,0.3)',
+                borderColor: 'rgb(255,165,0)',
+                pointStyle: "circle",
+                pointBackgroundColor: 'rgb(0,255,0)',
+                pointRadius: 5,
+                pointHoverRadius: 10,
+            }]
+        },
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                fontSize: 26,
+                text: '當周每日營業額'
+            },
+            tooltips: {
+                mode: 'point',
+                intersect: true,
+            },
+            legend: {
+                position: 'bottom',
+                labels: {
+                    fontColor: 'black',
+                }
+            }
+        }
+    });
+
+    //餐點種類圓餅圖
+    var ctxpie = document.getElementById("piechart");
+    var piechart = new Chart(ctxPie, {
+        type: 'pie',
+        data: {
+            labels: ['前菜', '主餐', '甜點', '飲品'],
+            datasets: [{
+                data: [30.0, 45.4, 5.3, 19.3],
+                backgroundColor: [
+                    window.chartColors.red,
+                    window.chartColors.blue,
+                    window.chartColors.green,
+                    window.chartColors.yellow
+                ]
+            }],
+        },
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                fontSize: 26,
+                text: '餐點類別購買程度%'
+            },
+        }
+    });
+
+</script>
+
