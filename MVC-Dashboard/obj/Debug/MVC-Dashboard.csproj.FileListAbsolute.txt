@@ -176,3 +176,44 @@ D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.resources.dll
 D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
 D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
 D:\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CopyComplete
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\MVC-Dashboard.dll.config
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\MVC-Dashboard.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\MVC-Dashboard.pdb
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Antlr3.Runtime.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.SqlServer.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Microsoft.Web.Infrastructure.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Newtonsoft.Json.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Helpers.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Mvc.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Optimization.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Razor.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Deployment.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Razor.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\WebGrease.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.SqlServer.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Helpers.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Mvc.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Optimization.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Razor.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Deployment.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Razor.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Newtonsoft.Json.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Antlr3.Runtime.pdb
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.csprojAssemblyReference.cache
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CoreCompileInputs.cache
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CopyComplete
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.pdb
