@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/OhLiveDinner/v16/Server/sqlite3/db.lock
+/MVC-Dashboard/bin
+/MVC-Dashboard/obj
+/OhLiveDinner/bin
+/OhLiveDinner/obj
