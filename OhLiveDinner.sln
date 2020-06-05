@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhLiveDinner", "OhLiveDinner\OhLiveDinner.csproj", "{91C71873-3B88-46E3-9957-3E7173185CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-Dashboard", "..\..\MVC-Dashboard\MVC-Dashboard\MVC-Dashboard.csproj", "{D4177AEF-82B8-41AD-826D-86AD9568C044}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-Dashboard", "MVC-Dashboard\MVC-Dashboard.csproj", "{D4177AEF-82B8-41AD-826D-86AD9568C044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 應用程式</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/chartjs")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Assets/css/ManagerMain.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="logoimg">
+            <h2>
+                <span>Live</span> Dinner
+            </h2>
+            <!-- <img src="logo.png" alt=""> -->
+        </div>
+        <div class="list">
+            <div class="ibg">
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="首頁">
+                    @*<i class="fas fa-home"></i>*@
+                    @Html.ActionLink(" ", "Index", "Home", null, new { @class = "nav-link fas fa-home" })
+                </a> 
+            </div>
+            <div class="ibg">
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="餐點管理">
+                    @*<i class="fas fa-utensils"></i>*@
+                    @Html.ActionLink(" ", "ProductsList", "Products", null, new { @class = "nav-link fas fa-utensils" })
+                </a>
+            </div>
+            <div class="ibg">
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="訂單管理">
+                    @*<i class="fas fa-clipboard-list"></i>*@
+                    @Html.ActionLink(" ", "OrdersList", "Orders", null, new { @class = "nav-link fas fa-clipboard-list" })
+                </a>
+            </div>
+            <div class="ibg">
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="會員管理">
+                    @*<i class="fa fa-user-circle"></i>*@
+                    @Html.ActionLink(" ", "Index", "MemberData", null, new { @class = "nav-link fa fa-user-circle" })
+                </a>
+            </div>
+        </div>
+       
+        <div class="logout">
+            <i class="fa fa-caret-down"></i>
+        </div>
+    </div>
+   
+        @RenderBody()
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @RenderSection("topCSS", required: false)
+</body>
+</html>
