@@ -1,0 +1,219 @@
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\MVC-Dashboard.dll.config
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\MVC-Dashboard.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\MVC-Dashboard.pdb
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csc.exe
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csc.exe.config
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csc.rsp
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csi.exe
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csi.exe.config
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csi.rsp
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.AppContext.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Collections.Immutable.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Console.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Globalization.Calendars.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.Compression.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.FileSystem.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Net.Http.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Net.Sockets.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Reflection.Metadata.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.ValueTuple.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.XPath.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\vbc.exe
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\vbc.exe.config
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\vbc.rsp
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\VBCSCompiler.exe
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\roslyn\VBCSCompiler.exe.config
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Antlr3.Runtime.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Newtonsoft.Json.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Helpers.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Mvc.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Optimization.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Razor.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Deployment.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Razor.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\WebGrease.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Helpers.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Mvc.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Optimization.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Razor.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Deployment.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Razor.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Newtonsoft.Json.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Antlr3.Runtime.pdb
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CopyComplete
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.pdb
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.SqlServer.dll
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.SqlServer.xml
+D:\MVC_Project\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.csprojAssemblyReference.cache
+D:\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.csprojAssemblyReference.cache
+D:\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.dll
+D:\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.pdb
+D:\MVC-Dashboard\MVC-Dashboard\bin\MVC-Dashboard.dll.config
+D:\MVC-Dashboard\MVC-Dashboard\bin\MVC-Dashboard.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\MVC-Dashboard.pdb
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csc.exe
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csc.exe.config
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csc.rsp
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csi.exe
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csi.exe.config
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\csi.rsp
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.AppContext.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Collections.Immutable.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Console.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Globalization.Calendars.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.Compression.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.FileSystem.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Net.Http.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Net.Sockets.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Reflection.Metadata.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.ValueTuple.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.XPath.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\vbc.exe
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\vbc.exe.config
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\vbc.rsp
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\VBCSCompiler.exe
+D:\MVC-Dashboard\MVC-Dashboard\bin\roslyn\VBCSCompiler.exe.config
+D:\MVC-Dashboard\MVC-Dashboard\bin\Antlr3.Runtime.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.SqlServer.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\Newtonsoft.Json.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Helpers.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Mvc.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Optimization.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Razor.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Deployment.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Razor.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\WebGrease.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\EntityFramework.SqlServer.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Helpers.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Mvc.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Optimization.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.Razor.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Deployment.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\System.Web.WebPages.Razor.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\Newtonsoft.Json.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\Antlr3.Runtime.pdb
+D:\MVC-Dashboard\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\MVC-Dashboard\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CopyComplete
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\MVC-Dashboard.dll.config
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\MVC-Dashboard.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\MVC-Dashboard.pdb
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Antlr3.Runtime.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.SqlServer.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Microsoft.Web.Infrastructure.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Newtonsoft.Json.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Helpers.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Mvc.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Optimization.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Razor.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Deployment.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Razor.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\WebGrease.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\EntityFramework.SqlServer.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Helpers.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Mvc.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Optimization.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.Razor.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Deployment.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\System.Web.WebPages.Razor.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Newtonsoft.Json.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Antlr3.Runtime.pdb
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.csprojAssemblyReference.cache
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CoreCompileInputs.cache
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.csproj.CopyComplete
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.dll
+D:\Build School上課資料夾\LiveDinner\ohLiveDinner\MVC-Dashboard\obj\Debug\MVC-Dashboard.pdb
