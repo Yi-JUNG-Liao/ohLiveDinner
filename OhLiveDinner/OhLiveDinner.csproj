@@ -190,6 +190,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProductsListController.cs" />
     <Compile Include="Controllers\ShoppingCarController.cs" />
     <Compile Include="Global.asax.cs">
@@ -600,6 +601,7 @@
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\contact-form-script.js" />
     <Content Include="Assets\js\Controller\ShoppingCar.js" />
+    <Content Include="Assets\js\Controller\TestProductList.js" />
     <Content Include="Assets\js\custom.js" />
     <Content Include="Assets\js\form-validator.min.js" />
     <Content Include="Assets\js\images-loded.min.js" />
@@ -682,6 +684,7 @@
     <Content Include="Views\ProductsList\wedsday.cshtml" />
     <Content Include="Views\Shared\NavbarPartial.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Product\Products.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
