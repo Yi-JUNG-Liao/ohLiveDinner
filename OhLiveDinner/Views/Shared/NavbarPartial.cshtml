@@ -1,0 +1,68 @@
+﻿
+<div class="topbar">
+    <div class="col-md-4 logoimg">
+        <a href="/Home/Index">
+            <h2 style="padding-bottom:0px">
+                <span>Live</span> Dinner
+                @*@Html.ActionLink(" ", "Index", "Home", null, new { @class = "nav-link" })*@
+            </h2>
+            @*@Html.ActionLink(" ", "Index", "Home", null, new { @class = "nav-link" })*@
+        </a>
+        
+        <!-- <img src="logo.png" alt=""> -->
+    </div>
+    <div class="col-md-4 list">
+        
+        <div class="ibg" data-toggle="tooltip" data-placement="bottom" title="菜單" >
+            <a >
+                @*<i class="fas fa-utensils"></i>*@
+                @Html.ActionLink(" ", "Products", "ProductsList", null, new { @class = "nav-link fas fa-utensils" })
+            </a>
+        </div>
+        <div class="ibg" data-toggle="tooltip" data-placement="bottom" title="會員個人檔案">
+            <a >
+                @*<i class="fa fa-user-circle"></i>*@
+                @Html.ActionLink(" ", "Login", "Account", null, new { @class = "nav-link fa fa-user-circle" })
+            </a>
+        </div>
+        <div class="ibg" data-toggle="tooltip" data-placement="bottom" title="購物車">
+            <a >
+                @*<i class="fas fa-clipboard-list"></i>*@
+                @Html.ActionLink(" ", "ShoppingCar", "ShoppingCar", null, new { @class = "nav-link fas fa-shopping-cart" })
+            </a>
+        </div>
+        <div class="ibg" data-toggle="tooltip" data-placement="bottom" title="關於我們">
+            <a >
+                @*<i class="fas fa-clipboard-list"></i>*@
+                @Html.ActionLink(" ", "Index", "About", null, new { @class = "nav-link fas fa-book" })
+            </a>
+        </div>
+    </div>
+    
+</div>
+
+
+@*@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("您好 " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">登出</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("註冊", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("登入", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}*@
+
+

@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Live-Dinner</title>
+
+    <!-- Site Icons -->
+    @*<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">*@
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Assets/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="~/Assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/Assets/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/Assets/css/custom.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/Assets/css/ManagerMain.css" />
+
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/plugin/BootstrapVue/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Assets/plugin/BootstrapVue/bootstrap-vue.min.css" />
+
+    <!-- Load polyfills to support older browsers -->
+    @*<script src="~/Assets/plugin/BootstrapVue/polyfill.min.js" crossorigin="anonymous"></script>*@
+
+    <!-- Load Vue followed by BootstrapVue -->
+    <script src="~/Assets/plugin/BootstrapVue/vue.min.js"></script>
+    <script src="~/Assets/plugin/BootstrapVue/bootstrap-vue.min.js"></script>
+
+    <!-- Load the following for BootstrapVueIcons support -->
+    <script src="~/Assets/plugin/BootstrapVue/bootstrap-vue-icons.min.js"></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+    </style>
+
+    @RenderSection("topCSS", required: false)
+    @RenderSection("topJS", required: false)
+
+</head>
+<body>
+
+    @Html.Partial("NavbarPartial")
+
+    @RenderBody()
+
+    <footer class="footer-area bg-f">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h3>關於我們</h3>
+                    <p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>贊助商</h3>
+                    <div class="subscribe_form">
+                        <form class="subscribe_form">
+                            <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+                            <button type="submit" class="submit">贊助</button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                    @*<ul class="list-inline f-social">
+                            <li class="list-inline-item col-2">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="list-inline-item col-2">
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="list-inline-item col-2">
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="list-inline-item col-2">
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="list-inline-item col-2">
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>*@
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>聯絡資訊</h3>
+                    <p class="lead">新竹市香山區五福路二段707號</p>
+                    <p class="lead">
+                        <a href="#">+886 987654321</a>
+                    </p>
+                    <p>
+                        <a href="#"> OhLiveDinner@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Opening hours</h3>
+                    <p>
+                        <span class="text-color">Monday: </span>Closed
+                    </p>
+                    <p>
+                        <span class="text-color">Tue-Wed :</span> 9:Am - 10PM
+                    </p>
+                    <p>
+                        <span class="text-color">Thu-Fri :</span> 9:Am - 10PM
+                    </p>
+                    <p>
+                        <span class="text-color">Sat-Sun :</span> 5:PM - 10PM
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="company-name">
+                            All Rights Reserved. &copy; 2018
+                            <a href="#">Live Dinner Restaurant</a> Design By :
+                            <a href="https://html.design/">html design</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    @*<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>*@
+
+    <!-- ALL JS FILES -->
+    <script src="~/Assets/js/jquery-3.2.1.min.js"></script>
+    <script src="~/Assets/js/popper.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="~/Assets/js/jquery.superslides.min.js"></script>
+    <script src="~/Assets/js/images-loded.min.js"></script>
+    <script src="~/Assets/js/isotope.min.js"></script>
+    <script src="~/Assets/js/baguetteBox.min.js"></script>
+    <script src="~/Assets/js/form-validator.min.js"></script>
+    <script src="~/Assets/js/contact-form-script.js"></script>
+    <script src="~/Assets/js/custom.js"></script>
+
+    @RenderSection("scripts", required: false)
+
+
+    @RenderSection("endCSS", required: false)
+    @RenderSection("endJS", required: false)
+</body>
+</html>

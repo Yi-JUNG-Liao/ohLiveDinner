@@ -1,0 +1,138 @@
+﻿@using OhLiveDinner.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    <style>
+        #check {
+            display: flex;
+            justify-content: center;
+        }
+
+        #login {
+            display: flex;
+            justify-content: center;
+        }
+
+        #text {
+            text-align: center;
+            font-family: 'Microsoft JhengHei';
+            color: #000000;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        #register {
+            text-align: center;
+        }
+
+        .card.col-md-4 {
+            height: auto;
+            border: 1px solid #808080;
+            justify-content: center;
+            margin: 20px 0px;
+        }
+
+        .title {
+            text-align: center;
+            font-family: 'Microsoft JhengHei';
+            padding: 10px;
+        }
+
+        .titleIMG {
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <!--左邊空位-->
+        </div>
+
+        <!--中間登入-->
+
+        <div class="card col-md-4">
+            <div class="title">
+                <h2 class="top">LOGIN</h2>
+
+            </div>
+            <div class="titleIMG">
+                <img src="~/Assets/images/logo.png" />
+            </div>
+            <section id="loginForm">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    //電子信箱
+                    <div class="form-group">
+                        <div id="text">
+                            @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                        </div>
+                        <div>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    //密碼
+                    <div class="form-group">
+                        <div id="text">
+                            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                        </div>
+                        <div>
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    //記住帳號密碼
+                    <div class="form-group" id="check">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)
+                        </div>
+                        @*<div class="col-md-offset-2 col-md-10">
+
+                            </div>*@
+                    </div>
+
+                    //登入按鈕
+                    <div class="form-group" id="login">
+                        <input type="submit" value="登入" class="btn btn-primary btn-lg" />
+                        @*<div class="col-md-offset-2 col-md-10">
+
+                            </div>*@
+                    </div>
+                    <div id="register">
+                        <p>
+                            @Html.ActionLink("Join US", "Register")
+                        </p>
+                        <p>
+                            @Html.ActionLink("Forgot?", "ForgotPassword")
+                        </p>
+                    </div>
+
+
+                }
+            </section>
+        </div>
+        <!--右邊空位-->
+        <div class="col-md-4">
+
+        </div>
+
+
+    </div>
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

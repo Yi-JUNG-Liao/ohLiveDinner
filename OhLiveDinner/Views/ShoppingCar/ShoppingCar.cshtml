@@ -1,0 +1,283 @@
+﻿
+
+<div class="container">
+    <div id="shopping-car-area">
+        <!-- Tabs with card integration -->
+        <b-card no-body>
+            <b-tabs v-model="tabIndex" small card>
+                <b-tab title="購物車">
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table table-hover cart-table">
+                                <thead>
+                                    <tr>
+                                        <th>產品編號</th>
+                                        <th>產品圖片</th>
+                                        <th>產品名稱</th>
+                                        <th>數量</th>
+                                        <th>價錢</th>
+                                        <th>動作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle">1001</td>
+                                        <td>
+                                            <a class="thumbnail pull-left" href="#">
+                                                <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png">
+                                            </a>
+                                        </td>
+                                        <td class="product-name">
+                                            <p>產品名稱</p>
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            <input type="number" value="1" min="0" max="50" class=" quality" />
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            <strong>$120</strong>
+                                        </td>
+
+                                        <td style="vertical-align: middle">
+                                            <input type="button" value="刪除" class="btn btn-danger">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align: middle">
+                                            1002
+                                        </td>
+                                        <td>
+                                            <a class="thumbnail pull-left" href="#">
+                                                <img class="media-object"
+                                                     src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png">
+                                            </a>
+                                        </td>
+                                        <td class="product-name">
+                                            <p>產品名稱</p>
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            <input type="number" value="1" min="0" max="50" class=" quality" />
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            <strong>$120</strong>
+                                        </td>
+
+                                        <td style="vertical-align: middle">
+                                            <input type="button" value="刪除" class="btn btn-danger">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="totalArea">
+                                <h3>總金額</h3>
+                                <h3>
+                                    <strong>$370</strong>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </b-tab>
+                <b-tab title="確認資料">
+                    <div class="container"></div>
+                    <div class="row">
+                        <div class="col-md-6 col-12  member_profile">
+                            <form class="form" action="##" method="post" id="registrationForm">
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="MemberID">
+                                            會員編號:
+                                        </label>
+                                        <input type="text" class="form-control" name="MemberID" id="MemberID" value="001" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="MemberName">
+                                            會員名稱:
+                                        </label>
+                                        <input type="text" class="form-control" name="MemberName" id="MemberName" value="王小明" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="Account">
+                                            會員帳號:
+                                        </label>
+                                        <input type="text" class="form-control" name="Account" id="Account" value="123456" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="Password">
+                                            會員密碼:
+                                        </label>
+                                        <input type="Password" class="form-control" name="Password" id="Password" value="123456" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <br>
+                                        <button class="btn" id="btnupd"  style="background-color: #d65106">
+                                            <span style="color: #fff">
+                                                修改資料
+                                            </span>
+                                        </button>
+                                        <button class="btn " id="btnsave" disabled="disabled">
+                                            存檔
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                        </div>
+                        <div class="col-sm-6 c member_profile">
+                            <form class="form" action="##" method="post" id="registrationForm">
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="phone">
+                                            聯絡電話:
+                                        </label>
+                                        <input type="text" class="form-control" name="phone" id="phone" value="0912345678" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="Email">
+                                            電子郵件:
+                                        </label>
+                                        <input type="text" class="form-control" name="Email" id="Email" value="123@gmail.com" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="Address">
+                                            通訊地址:
+                                        </label>
+                                        <div style="display: flex">
+                                            <input type="text" class="form-control" name="Code" id="Code" value="300" disabled="disabled" style="width:initial; display: inline " > 
+                                            <input type="text" class="form-control" name="Address" id="Address" value="新竹市香山區五福路二段707號" disabled="disabled" style="display: inline">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-8">
+                                        <label for="Password" style="margin-top: 20px">
+                                            總金額:
+                                            <strong>$370</strong>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                        </div>
+                    </div>
+                </b-tab>
+                <b-tab title="付款方式">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>
+                                選擇付款方式:
+                                <select name="" id="payment">
+                                    <option value="" onclick="CardPay()" >信用卡付款</option>
+                                    <option value="" onclick="DeliveryPay()">貨到付款</option>
+                                    <option value="" onclick="StorePay()">店內付款</option>
+                                </select>
+                            </h4>
+                            <div id="credit-card" class="row">
+                                <div class="col-xs-6 col-md-6">
+                                    <h3>信用卡</h3>
+                                    <div id="credit-cardnumber">
+                                        <p>信用卡卡號</p>
+                                        <input type="tel" class="form-control" name="cardNumber" autocomplete="cc-number" required autofocus />
+                                    </div>
+                                    <div id="owner-name">
+                                        <p>持卡人姓名</p>
+                                        <input type="text" class="form-control" name="couponCode" />
+                                    </div>
+                                    <div id="credit-carddetail">
+                                        <div id="card-year">
+                                            <p>信用卡有效年</p>
+                                            <input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
+                                        </div>
+                                        <div id="card-lastThree">
+                                            <p>信用卡末三碼</p>
+                                            <input type="tel" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <img src="~/Assets/images/visa.png" alt="" style="width: 250px;height: 300px;margin-left: 20%;">
+                                </div>
+                            </div>
+                            <div id="DeliveryPay" class="row">
+                                <h4>貨到付款</h4>
+                            </div>
+                            <div id="StorePay" class="row">
+                                <h4>店內付款</h4>
+                            </div>
+                        </div>
+                    </div>
+                </b-tab>
+                <b-tab title="訂單完成">
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table table-hover cart-table">
+                                <thead>
+                                    <tr>
+                                        <th>訂單編號</th>
+                                        <th>購買時間</th>
+                                        <th>應付金額</th>
+                                        <th>付款方式</th>
+                                        <th>訂單狀態</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle">
+                                            1001
+                                        </td>
+                                        <td>
+                                            <span>2020/07/03 13:56:10</span>
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            <span>370</span>
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            信用卡支付
+                                        </td>
+                                        <td style="vertical-align: middle">
+                                            出貨處理中
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </b-tab>
+            </b-tabs>
+        </b-card>
+
+        <!-- Control buttons-->
+        <div class="text-center">
+            <b-button-group class="mt-2">
+                <b-button v-on:click="tabIndex--">Previous</b-button>
+                <b-button v-on:click="tabIndex++">Next</b-button>
+            </b-button-group>
+
+            <div class="text-muted">Current Tab: {{ tabIndex }}</div>
+        </div>
+    </div>
+
+</div>
+
+@section topCSS{
+    
+    <link href="~/Assets/css/ShoppingCar.css" rel="stylesheet" />
+}
+@section endJS{
+    <script src="~/Assets/js/Controller/ShoppingCar.js"></script>
+    <script>
+
+    
+
+    </script>
+}

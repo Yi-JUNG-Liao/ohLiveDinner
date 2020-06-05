@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Microsoft JhengHei;
+}
+body {
+  background-color: #eee;
+  /* overflow: hidden; */
+}
+.topbar {
+  width: 100%;
+  background-color: #fff;
+  /* height: 100px; */
+  display: flex;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 2px 10px #999;
+}
+
+.topbar .logoimg {
+  /* background-color: #f00; */
+  padding: 1rem 0 1rem 3rem;
+  font-size: 30px;
+
+  /* text-shadow: 2px 2px 2px #000; */
+}
+.topbar .logoimg h2 {
+  color: #000;
+  font-family: "Righteous", cursive;
+  /* text-shadow: 2px 2px 3px #999; */
+}
+.topbar .logoimg span {
+  /* text-shadow: 2px 2px 3px #333; */
+  font-family: "Righteous", cursive;
+  color: #d56106;
+}
+.topbar .list {
+  margin-right: 15%;
+  width: 30%;
+  display: flex;
+  /* background-color: #f00; */
+  justify-content: space-around;
+}
+.topbar .list .ibg {
+  margin: auto 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color:#000;
+}
+.topbar .list .ibg:hover {
+  background-color: #d56106;
+}
+.topbar .list .ibg:hover i {
+  color: #fff;
+}
+    .topbar .list .ibg .itembtn{
+        background: #d56106;
+    }
+
+.nav-link.fas.fa-home 
+{
+    font-size: 40px;
+}
+.topbar .list {
+    color: #333;
+    font-size: 40px;
+}
+.topbar .logout {
+  margin: auto 3rem auto 0;
+  background-color: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  box-shadow: 3px 2px #aaa;
+}
+.logout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.logout i {
+  color: #fff;
+  font-size: 30px;
+}
+.logout:hover {
+  border: 1px solid #d56106;
+  background-color: #d56106;
+  color: #d56106;
+}
+.logout:hover i {
+  color: #fff;
+}
+
+
+
+

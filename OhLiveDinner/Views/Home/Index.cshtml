@@ -1,0 +1,712 @@
+﻿<div id="slides" class="cover-slides">
+    <ul class="slides-container">
+        <li class="text-left">
+            <img src="/Assets/images/slider-01.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Live Dinner Restaurant</strong></h1>
+                        <p class="m-b-40">
+                            在特殊的場合選擇我們，您將體驗到美食、美酒和優質服務所帶來的不同。<br>我們擁有功能齊全的私人餐廳，可容納多達35位客人（任何餐桌佈置）。
+                        </p>
+                        <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-left">
+            <img src="/Assets/images/slider-02.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Live Dinner Restaurant</strong></h1>
+                        <p class="m-b-40">
+                            See how your users experience your website in realtime or view  <br>
+                            trends to see any changes in performance over time.
+                        </p>
+                        <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-left">
+            <img src="/Assets/images/slider-03.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
+                        <p class="m-b-40">
+                            See how your users experience your website in realtime or view  <br>
+                            trends to see any changes in performance over time.
+                        </p>
+                        <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation">
+        <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    </div>
+</div>
+<div class="about-section-box selected-section-hover">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center TextArea">
+                <div class="inner-column">
+                    <h1>About Us</h1>
+                    @*<h4>Little Story</h4>*@
+                    <p>Live Dinner 成立於1990年，<br>是位於倫敦市中心的一家傳統鄰里意大利餐廳。 </p>
+                    <p>從博洛尼亞（Bologna）的後街到摩德納（Modena）的中部，Live Dinner 在家庭氛圍中提供正宗的意大利美食，<br>並具有倫敦市中心的所有專業水平。</p>
+                    @Html.ActionLink("More", "Index", "About", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white" })
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 PicArea">
+                <img src="/Assets/images/timg-_3_.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu-box selected-section-hover">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="heading-title text-center">
+                    <h2>@Html.ActionLink("Special Menu", "Products", "ProductsList", null, null)</h2>
+                    <p>每天都是不一樣的 Live Dinner，永遠保持新鮮感！</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row inner-menu-box">
+            @*左側欄*@
+            <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Mon.</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Tue.</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Wed.</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Thu.</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Fri.</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sat.</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sun.</a>
+                </div>
+            </div>
+
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 special-grid drinks">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-01.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Drinks 1</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $7.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid drinks">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-02.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Drinks 2</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $9.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid drinks">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-03.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Drinks 3</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $10.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid lunch">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-04.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Lunch 1</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $15.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid lunch">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-05.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Lunch 2</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $18.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid lunch">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-06.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Lunch 3</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $20.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid dinner">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-07.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Dinner 1</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $25.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid dinner">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-08.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Dinner 2</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $22.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid dinner">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-09.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Dinner 3</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $24.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 special-grid drinks">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-01.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Drinks 1</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $7.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid drinks">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-02.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Drinks 2</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $9.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid drinks">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-03.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Drinks 3</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $10.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 special-grid lunch">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-04.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Lunch 1</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $15.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid lunch">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-05.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Lunch 2</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $18.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid lunch">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-06.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Lunch 3</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $20.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 special-grid dinner">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-07.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Dinner 1</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $25.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid dinner">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-08.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Dinner 2</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $22.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 special-grid dinner">
+                                <div class="gallery-single fix">
+                                    <img src="/Assets/images/img-09.jpg" class="img-fluid" alt="Image">
+                                    <div class="why-text">
+                                        <h4>Special Dinner 3</h4>
+                                        <p>Sed id magna vitae eros sagittis euismod.</p>
+                                        <h5> $24.79</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<section class="season-section col-12 selected-section-hover">
+    <div class="container">
+        <div class="row">
+
+            @*<div class="col-6">
+                    <div class="pic-season preview-item shake shake-hard">
+                        <img src="~/Assets/images/Salmon/asset 12.png" class="d-block w-100"/>
+                    </div>
+                </div>*@
+            <div class="col-6">
+                <div class="text-season">
+                    <h1>季節限定食材</h1>
+                    <h3>頂級厚切智利鮭魚</h3>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="icon-season preview-item shake shake-hard">
+                    <img src="~/Assets/images/Salmon/salmon_fish.png" />
+                </div>
+            </div>
+            <div class="pic-season" style="margin-top:20px">
+                <div class="col-lg-3 col-md-4 special-grid">
+                    <div class="gallery-single fix">
+                        <img src="~/Assets/images/Salmon/asset 17.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Special Drinks 2</h4>
+                            <p>Sed id magna vitae eros sagittis euismod.</p>
+                            <h5> $9.79</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 special-grid">
+                    <div class="gallery-single fix">
+                        <img src="~/Assets/images/Salmon/asset 18.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Special Drinks 2</h4>
+                            <p>Sed id magna vitae eros sagittis euismod.</p>
+                            <h5> $9.79</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 special-grid">
+                    <div class="gallery-single fix">
+                        <img src="~/Assets/images/Salmon/asset 19.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Special Drinks 2</h4>
+                            <p>Sed id magna vitae eros sagittis euismod.</p>
+                            <h5> $9.79</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 special-grid">
+                    <div class="gallery-single fix">
+                        <img src="~/Assets/images/Salmon/asset 20.jpeg" class="img-fluid" alt="Image">
+                        <div class="why-text">
+                            <h4>Special Drinks 2</h4>
+                            <p>Sed id magna vitae eros sagittis euismod.</p>
+                            <h5> $9.79</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="qt-box qt-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <p class="lead ">
+                    " If you're not the one cooking, stay out of the way and compliment the chef. "
+                </p>
+                <span class="lead">Michael Strahan</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact-imfo-box" style="border-radius:0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 arrow-right">
+                <i class="fa fa-volume-control-phone"></i>
+                <div class="overflow-hidden">
+                    <h4>Phone</h4>
+                    <p class="lead">
+                        +01 123-456-4590
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 arrow-right">
+                <i class="fa fa-envelope"></i>
+                <div class="overflow-hidden">
+                    <h4>Email</h4>
+                    <p class="lead">
+                        yourmail@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-map-marker"></i>
+                <div class="overflow-hidden">
+                    <h4>Location</h4>
+                    <p class="lead">
+                        800, Lorem Street, US
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section topCSS
+{
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+    <link href="~/Assets/css/shake.css" rel="stylesheet" />
+    <style>
+        .slides-container {
+            font-family: Microsoft JhengHei;
+        }
+
+        .selected-section-hover:hover {
+            border-top: 1rem dashed #d65106;
+            border-left: 3rem solid #d65106;
+            z-index: 1;
+            transition: .5s;
+        }
+
+        /*------------------------------------------------------------------
+            menu
+        -------------------------------------------------------------------*/
+
+        .menu-box {
+            background-color: #000;
+            position: relative;
+            z-index: 0;
+        }
+
+            .menu-box::before {
+                /*background-image: url('/Assets/images/Salmon/asset 153.jpeg');*/
+                background-image: url('/Assets/images/about-img.jpg');
+                content: "";
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 0;
+                opacity: 0.8;
+                filter: blur(10px);
+            }
+
+            .menu-box .heading-title {
+                /*background-color: rgba(214, 81, 6, .5);*/
+                background-color: rgba(0, 0, 0, .3);
+                border-radius: 50px;
+                padding: 1rem 0;
+                border: 5px dotted #000;
+                position: relative;
+            }
+
+            .menu-box:hover .heading-title {
+                background-color: rgba(255, 255, 255, .3);
+                border-radius: 50px;
+                padding: 1rem 0;
+                border: 5px dotted #000;
+                transition: .5s;
+                box-shadow: 0px 50px 10rem #fff;
+            }
+
+            .menu-box .heading-title h2 {
+                font-family: 'Black Han Sans', sans-serif;
+                font-size: 5rem;
+            }
+
+            .menu-box .heading-title a:hover {
+                text-decoration: none;
+                color: #000;
+            }
+
+            .menu-box .heading-title h2:hover {
+                color: #000;
+                text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0,0,0,0.15), 0px 24px 2px rgba(0,0,0,0.1), 0px 34px 30px rgba(0,0,0,0.1);
+            }
+
+                .menu-box .heading-title h2:hover + p {
+                    /*text-decoration:underline;*/
+                    color: aliceblue;
+                    animation: jelly 0.5s;
+                }
+
+            .menu-box .heading-title p {
+                color: #000;
+                font-family: 'Noto Serif TC', serif;
+            }
+
+            .menu-box .inner-menu-box a {
+                background-color: rgba(5, 0, 0, 0.3);
+                color: #aaa;
+            }
+
+                .menu-box .inner-menu-box a:hover {
+                    cursor: pointer;
+                    animation: jelly 0.5s;
+                }
+
+        @@keyframes jelly {
+            0%, 100% {
+                transform: scale(1, 1);
+            }
+
+            25% {
+                transform: scale(0.9, 1.1);
+            }
+
+            50% {
+                transform: scale(1.1, 0.9);
+            }
+
+            75% {
+                transform: scale(0.95, 1.05);
+            }
+        }
+        /*------------------------------------------------------------------
+            about
+        -------------------------------------------------------------------*/
+
+        .about-section-box .TextArea {
+            /*background-color: #d65106;*/
+            background-color: #fff;
+            /*background-image:url(/Assets/images/French-Toast.jpg);
+                    background-position:500px 500px;
+                    background-size:130%;*/
+            box-shadow: -20px -20px #000;
+            /*border-bottom: 1.5rem solid #333;*/
+            padding: 5rem 0 0 5rem;
+            border-radius: 30px;
+            font-family: Microsoft JhengHei;
+            /*border:1px solid #000;*/
+            transition: 0;
+        }
+
+            .about-section-box .TextArea h1 {
+                font-family: 'Black Han Sans', sans-serif;
+            }
+
+            .about-section-box .TextArea p {
+                font-family: 'Noto Serif TC', serif;
+            }
+
+
+            .about-section-box .TextArea:hover {
+                /*background-color: #eee;*/
+                background-image: url(/Assets/images/French-Toast.jpg);
+                background-position: center;
+                box-shadow: -20px -20px #C46F2A, -60px -40px 200px #eee, 20px 20px 20px #666;
+                border: 1px solid #C47835;
+                cursor: pointer;
+                transition: .5s;
+                border-radius: 100px;
+            }
+
+        .about-section-box .PicArea {
+            border-radius: 30px;
+            box-shadow: 25px 25px #000;
+            /*border: 1px solid #000;*/
+            padding: 0;
+            position: relative;
+        }
+
+            .about-section-box .PicArea .img-fluid {
+                border-radius: inherit;
+                width: 100%;
+            }
+
+        .about-section-box .TextArea:hover + .PicArea {
+            box-shadow: 8px 10px 10px #666, 25px 25px #fff, 35px 35px 20px #000;
+            transition: .5s;
+            border-radius: 50%;
+            border: 1px solid #000;
+        }
+
+            /*.about-section-box .PicArea::before {
+            content: '●';
+            font-size: 5rem;
+            color: #fff;
+            text-shadow: 3px 3px #333, 0px 3px 5px #666, 7px 7px 4px #333;
+            position: absolute;
+            top: 35%;
+            left: 48%;
+            z-index: 5;
+            opacity: 0;
+        }*/
+
+            .about-section-box .TextArea:hover + .PicArea:before {
+                opacity: 1;
+            }
+
+        /*------------------------------------------------------------------
+            season
+        -------------------------------------------------------------------*/
+        .season-section {
+            background: #fff url(/Assets/images/Salmon/salmon.jpg) no-repeat bottom center;
+            background-size: cover;
+            padding-top: 5rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+            /*.season-section:hover {
+                border-top: 1rem dashed #d65106;
+                border-left: 3rem solid #d65106;
+                z-index: 1;
+                transition:.5s;
+            }*/
+            .season-section .icon-season {
+                position: relative;
+            }
+
+                .season-section .icon-season:before {
+                    content: '超新鮮';
+                    font-size: 5rem;
+                    color: #d65106;
+                    background-color: aliceblue;
+                    /*text-shadow: 3px 3px #333;*/
+                    box-shadow: 10px 10px 10px #000;
+                    position: absolute;
+                    top: 10%;
+                    left: 100%;
+                    z-index: 5;
+                    font-weight: 700;
+                    padding: 1.5rem;
+                    font-family: Microsoft JhengHei;
+                }
+
+            .season-section .text-season {
+                color: #1C1C1C !important;
+                /*background-color: rgba(168,216,185,.7);*/
+                background-color: rgba(255,255,255,.7);
+                border-radius: 10%;
+                padding: 5rem 5rem;
+                font-family: Microsoft JhengHei !important;
+                text-align: center;
+                font-weight: 700;
+                /*box-shadow: 1rem 20px 20px 10px #fff;*/
+                position: relative;
+                overflow: hidden;
+                cursor: pointer;
+                z-index: 1;
+            }
+
+                .season-section .text-season h1 {
+                    font-size: 6rem;
+                    font-weight: 700;
+                }
+
+                .season-section .text-season h3 {
+                    font-size: 4rem;
+                    font-weight: 400;
+                }
+
+                /*.season-section .text-season:hover {
+                    text-shadow: 1rem 1rem 0.5rem #aaa;
+                    transform: scale(1.1, 1.1);
+                }*/
+
+                .season-section .text-season::after {
+                    content: '';
+                    z-index: -1;
+                    background-color: hsla(0, 0%, 100%, 0.35);
+                    position: absolute;
+                    top: -150%;
+                    bottom: -150%;
+                    width: 5em;
+                    transform: translate3d(-525%, 0, 0) rotate(35deg);
+                }
+
+                .season-section .text-season:hover::after {
+                    transition: transform 0.45s ease-in-out;
+                    transform: translate3d(400%, 0, 0) rotate(35deg);
+                }
+
+        .pic-season {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%
+        }
+
+        .season-section .pic-season img {
+            display: block;
+            width: 100%;
+        }
+
+        .season-section .pic-season .gallery-single {
+            box-shadow: 10px 10px 10px #000;
+        }
+    </style>
+}
