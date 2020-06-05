@@ -139,6 +139,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OutUnitModels\OutApiModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\MemberViewModel.cs" />
   </ItemGroup>
@@ -197,10 +198,15 @@
     <Content Include="Views\Abouts\AboutUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="APIControllers\" />
     <Folder Include="App_Data\" />
     <Folder Include="Assets\json\" />
     <Folder Include="Assets\js\" />
     <Folder Include="Data\" />
+    <Folder Include="Models\DatabaseEntityModels\" />
+    <Folder Include="Models\ViewModels\" />
+    <Folder Include="Repository\BussinessLogicLayer\" />
+    <Folder Include="Repository\DatabaseAccessLayer\" />
     <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
