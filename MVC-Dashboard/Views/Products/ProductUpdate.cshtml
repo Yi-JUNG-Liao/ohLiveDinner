@@ -1,0 +1,106 @@
+﻿@section  topCSS{
+    <style>
+        * {
+            font-family: "Microsoft JhengHei";
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 60%;
+            margin: 5% auto 0 auto;
+            border: 2px solid #000;
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            font-size: 3rem;
+        }
+        input:focus {
+            outline: none
+        }
+        button:focus{
+            outline:none;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgba(255, 165, 0, 0.7);
+        }
+
+        .CancelBtn {
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+        }
+
+            .CancelBtn button {
+                width: 60%;
+                border-radius: 20px;
+                font-size: 3rem;
+                padding: 0 2rem;
+            }
+    </style>
+}
+
+<body>
+    <table>
+        <tr>
+            <td>
+                餐點名稱:
+            </td>
+            <th>
+                <input />
+            </th>
+        </tr>
+        <tr>
+            <td>
+                餐點價錢:
+            </td>
+            <th>
+                <input />
+            </th>
+        </tr>
+        <tr>
+            <td>
+                餐點種類:
+            </td>
+            <th>
+                <form>
+                    <select name="ProductKind">
+                        <option value="">前菜</option>
+                        <option value="">主餐</option>
+                        <option value="">甜點</option>
+                        <option value="">飲品</option>
+                    </select>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                餐點狀態:
+            </td>
+            <th>
+                <form>
+                    <select name="ProductStatus">
+                        <option value="">銷售</option>
+                        <option value="">停售</option>
+                    </select>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                餐點圖片:
+            </td>
+            <th>
+                <button>上傳圖片</button>
+            </th>
+        </tr>
+    </table>
+    <div class="CancelBtn">
+        <button>取消訂單</button>
+    </div>
+</body>
