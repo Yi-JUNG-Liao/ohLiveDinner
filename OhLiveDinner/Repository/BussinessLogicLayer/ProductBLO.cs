@@ -28,7 +28,8 @@ namespace OhLiveDinner.Repository.BussinessLogicLayer
                 ProductId = x.ProductId,
                 ProductIntroduction = x.ProductIntroduction,
                 ProductPrice = x.ProductPrice,
-                ProductImage = x.ProductImage
+                ProductImage = x.ProductImage,
+                ProductKindName = x.ProductKindName
             }).ToList();
 
             return result;

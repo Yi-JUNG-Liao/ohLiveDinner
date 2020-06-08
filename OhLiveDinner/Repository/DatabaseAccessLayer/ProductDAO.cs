@@ -15,7 +15,8 @@ namespace OhLiveDinner.Repository.DatabaseAccessLayer
 
         public IEnumerable<Product> GetAll()
         {
-            string SQLcommand = @"SELECT * FROM Product";
+            string SQLcommand = @"SELECT * FROM Product
+ inner join ProductKind p on p.ProductKindId = Product.ProductKindId";
 
             IEnumerable<Product> result;
 

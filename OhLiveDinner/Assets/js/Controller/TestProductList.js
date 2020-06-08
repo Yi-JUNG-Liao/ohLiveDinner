@@ -2,11 +2,15 @@
     el: '#producttest-list-area',
     data: {
         isBusy: true,
-        ProductList: [],
+        Apper: [],
+        main: [],
+        dessert: [],
+        drink: [],
     },
+    
     created: function () {
         $.ajax({
-            url: '/api/Product/GetAll',
+            url: '/api/Product/GetAllProduct',
             type: 'GET',
             data: '',
             async: true,
@@ -23,7 +27,15 @@
         });
 
         function GetResponse(input) {
-            this.TestListProductVue.ProductList = input;
+            input.forEach(element => {
+                if (element.ProductKindName == Appetizers) {
+                    this.TestListProductVue.Apper = element;
+                    debugger;
+                }
+
+           });
+            
+            
         }
 
         function BusyChange() {

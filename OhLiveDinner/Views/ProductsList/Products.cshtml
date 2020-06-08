@@ -3,139 +3,100 @@
 @{
     ViewBag.Title = "Menu";
 }
-
-<div class="container" id="menu">
-    <div class="row w-auto">
-        <div class="col-12 btn_weekday">
-            <ul class="list-group col-12">
-                <li class="list-group-itempo">
-                    @Html.ActionLink("Special", "Products", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-crazy" })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("monday", "monday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake freez " })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("tuesday", "tuesday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-slow" })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("wedsday", "wedsday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-opacity" })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("thrusday", "thrusday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-rotate" })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("friday", "friday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-horizontal" })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("saturday", "saturday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-hard" })
-                </li>
-                <li class="list-group-itempo">
-                    @Html.ActionLink("sunday", "sunday", "ProductsList", null, new { @class = "btn btn-lg btn-circle btn-outline-new-white shake shake-vertical" })
-                </li>
-            </ul>
+    <div id="menu"></div>
+    
+    <div id="producttest-list-area">
+        <div v-if="isBusy" class="text-center">
+            <b-spinner variant="secondary" label="Text Centered"></b-spinner>
         </div>
+        <div id="flipbook">
+            <div class="hard"> <H1>MENU</H1> </div>
+            <div class="hard"></div>
+            
 
-        <div class="col-12  mx-auto" id="book">
-            <div class="" id="flipbook">
-
-                <div class="hard" id="">
-                    <h1>Special</h1>
-                </div>
-
-                <div id="page">
-                    <h1>Appetizer</h1>
-                    @foreach (var i in Model.Appetizer)
-                    {
-                        <div class="card col-lg-4 mx-auto">
-                            <img src="@i.MealPicture" class="card-img-top " alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">@i.MealName</h5>
-                                <p class="card-text">@i.MealPrice</p>
-                                <select id="YourLocation" class="w-50 my-2 mx-auto">
-                                    <option value="0">0</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <div class="btn">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
+                
+            <div id="page">
+                <H2>Appetizers</H2>
+                <div class="col-4 " v-for="item in apper">
+                    <img v-bind:src="item.ProductImage" alt="Alternate Text" class="w-100" />
+                    <article>
+                        <h5 class="card-title">{{item.ProductIntroduction}}</h5>
+                        <p class="card-text"> Price : {{ item.ProductPrice }}</p>
+                        <select id="YourLocation" class="w-50 my-2 mx-auto" v-model="selected">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                        <div v-on:click="shopping(item)" class="btn">
+                            BUY
                         </div>
-                    }
+                    </article>
                 </div>
 
-                <div id="page" class="">
-                    <h1>Main</h1>
-                    @foreach (var i in Model.Main)
-                    {
-                        <div class="card col-lg-4 mx-auto">
-                            <img src="@i.MealPicture" class="card-img-top " alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">@i.MealName</h5>
-                                <p class="card-text">@i.MealPrice</p>
-                                <select id="YourLocation" class="w-50 my-2 mx-auto">
-                                    <option value="0">0</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <div class="btn">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
+            </div>
+           
+                
+
+            <div id="page">
+                <H2>Main</H2>
+                <div class="col-4 " v-for="item in main">
+                    <img v-bind:src="item.ProductImage" alt="Alternate Text" class="w-100" />
+                    <article>
+                        <h5 class="card-title">{{item.ProductIntroduction}}</h5>
+                        <p class="card-text"> Price : {{ item.ProductPrice }}</p>
+                        <select id="YourLocation" class="w-50 my-2 mx-auto">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                        <div v-on:click="shopping(item)" class="btn">
+                            BUY
                         </div>
-                    }
+                    </article>
                 </div>
 
-                <div id="page">
-                    <h1>Dessert</h1>
-                    @foreach (var i in Model.Desert)
-                    {
-                        <div class="card col-lg-4 mx-auto">
-                            <img src="@i.MealPicture" class="card-img-top " alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">@i.MealName</h5>
-                                <p class="card-text">@i.MealPrice</p>
-                                <select id="YourLocation" class="w-50 my-2 mx-auto">
-                                    <option value="0">0</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <div class="btn">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
+            </div>
+                
+            <div id="page">
+                <H2>Dessert</H2>
+                <div class="col-4 " v-for="item in dessert">
+                    <img v-bind:src="item.ProductImage" alt="Alternate Text" class="w-100" />
+                    <article>
+                        <h5 class="card-title">{{item.ProductIntroduction}}</h5>
+                        <p class="card-text"> Price : {{ item.ProductPrice }}</p>
+                        <select id="YourLocation" class="w-50 my-2 mx-auto">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                        <div v-on:click="shopping(item)" class="btn">
+                            BUY
                         </div>
-                    }
-
+                    </article>
                 </div>
 
-                <div class="" id="page">
-                    <h1>Drink</h1>
-                    @foreach (var i in Model.Drink)
-                    {
-                        <div class="card col-lg-4 mx-auto">
-                            <img src="@i.MealPicture" class="card-img-top " alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">@i.MealName</h5>
-                                <p class="card-text">@i.MealPrice</p>
-                                <select id="YourLocation" class="w-50 my-2 mx-auto">
-                                    <option value="0">0</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <div class="btn">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
+            </div>
+                
+            <div id="page">
+                <H2>Drink</H2>
+                <div class="col-4 " v-for="item in drink">
+                    <img v-bind:src="item.ProductImage" alt="Alternate Text" class="w-100" />
+                    <article>
+                        <h5 class="card-title">{{item.ProductIntroduction}}</h5>
+                        <p class="card-text"> Price : {{ item.ProductPrice }}</p>
+                        <select id="YourLocation" class="w-50 my-2 mx-auto" v-model="selected">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                        <div v-on:click="shopping(item)" class="btn">
+                            BUY
                         </div>
-                    }
+                    </article>
                 </div>
 
-                <div class="hard" id=""></div>
             </div>
 
-
+                <div id="page"></div>
+                <div class="hard"></div>
+            </div>
         </div>
-
-    </div>
-</div>
-
 @section topCSS{
     <link href="~/Assets/css/shake.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -146,59 +107,44 @@
             background-color: #000 !important;
         }
 
+
         #menu {
-            padding-top: 200px
+            padding: 50px;
         }
 
-            #menu:hover {
-                cursor: grab;
-            }
-
-            #menu:active {
-                cursor: grabbing;
-            }
 
 
-        .btn_weekday .list-group {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            width: 100%;
-            padding: 0;
-            justify-content: center;
-            margin-bottom: 3rem;
+        #producttest-list-area{
+            display:flex;
+            justify-content:center;
         }
 
-            .btn_weekday .list-group li {
-                display: block;
-                width: 10%;
-                margin: 0 1%;
-            }
-
-        /*星期一～日的按鈕*/
-        .btn_weekday a {
-            background: url(/Assets/images//cup.png) center top;
+        #page {
+            background-color: #ecce79;
+            background: url(/Assets/images/sheep_paper.jpg) center center;
             background-size: cover;
-            width: 100%;
-            padding: 5rem 0;
-            font-size: 1rem;
-            border: none;
-            color: #000;
-            filter: brightness(1.5);
+            position: relative;
+            display:flex;
+            
+            /*justify-content: center;*/
+        }
+        /*.line {
+                    width: 30%;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    border-top: solid #000 1px;
+                }*/
+        #book {
+            margin-top: 200px;
         }
 
-            .btn_weekday a:hover {
-                background-color: #000;
-                color: #000;
-            }
-
-        /*.line {
-            width: 30%;
-            margin-top: auto;
-            margin-bottom: auto;
-            border-top: solid #000 1px;
-        }*/
-
+        .col-4{
+           margin-top:-18rem;
+        }
+        #pp{
+            display:flex;
+            /*width:auto;*/
+        }
         .hard {
             background: #5e331b url(/Assets/images/leather.jpg) center center;
             text-align: center;
@@ -209,7 +155,14 @@
             /*transform: rotate(90deg);*/
             /*border: 1rem solid #fff;*/
         }
-
+        h2 {
+            font-family: 'Pacifico', cursive;
+            width:100%;
+            font-size:3rem;
+            text-align:center;
+            padding-top:3rem;
+            
+        }
             .hard h1 {
                 /*background-color: rgba(0,0,0,.5);*/
                 font-family: 'Pacifico', cursive;
@@ -238,16 +191,17 @@
                 width: 100%;
                 text-align: center;
             }
-       
-            #page .card {
+
+            #page .col-4 {
                 background-color: rgba(231, 226, 189,.4);
+                height:45%;
             }
 
                 #page .card img {
                     width: 100%
                 }
 
-                #page .card .card-body .card-title {
+                #page  .card-title {
                     font-family: 'Microsoft JhengHei';
                     font-size: 2rem;
                     font-weight: bold;
@@ -261,7 +215,7 @@
                     color: #000;
                 }
 
-                #page .card .card-body .btn {
+                #page .btn {
                     background-color: #d65106;
                     color: #fff;
                     width: 80%;
@@ -269,7 +223,7 @@
                     font-size: 1.5rem;
                 }
 
-                    #page .card .card-body .btn a {
+                    #page  .btn a {
                         color: #fff;
                     }
 
@@ -286,16 +240,118 @@
 }
 
 @section endJS{
+
+
+
     <script src="~/Assets/filpbook/extras/jquery.min.1.7.js"></script>
 
     <script src="~/Assets/filpbook/lib/turn.js"></script>
     <script type="text/javascript">
 
 
-        $("#flipbook").turn({
-            width: 1200,
-            height: 600,
-            autoCenter: false
+
+
+        var TestListProductVue = new Vue({
+            el: '#flipbook',
+            data: {
+                isBusy: true,
+                apper: [],
+                main: [],
+                dessert: [],
+                drink: [],
+                selected:0,
+            },
+            created: function () {
+                $.ajax({
+                    url: '/api/Product/GetAllProduct',
+                    type: 'GET',
+                    data: '',
+                    async: true,
+                    success: function (response) {
+                        console.log(response);
+                        if (response.StatusCode == '1') {
+                            GetResponse(response.Result);
+                            BusyChange();
+
+
+                            $("#flipbook").turn({
+                                width: 1200,
+                                height: 800,
+                                autoCenter: false
+                            });
+
+                        }
+                        else {
+                            //跳出警告視窗
+                        }
+                    }
+                });
+
+                function GetResponse(input) {
+                    input.forEach(element => {
+                        if (element.ProductKindName == "Appetizers") {
+                            this.TestListProductVue.apper.push(element);
+
+                        }
+                        else if (element.ProductKindName == "Main") {
+                            this.TestListProductVue.main.push(element);
+
+                        }
+                        else if (element.ProductKindName == "Desert") {
+                            this.TestListProductVue.dessert.push(element);
+
+                        }
+                        else if (element.ProductKindName == "Drink") {
+                            this.TestListProductVue.drink.push(element);
+
+                        }
+
+                    });
+
+
+                }
+
+                function BusyChange() {
+                    this.TestListProductVue.isBusy = !this.TestListProductVue.isBusy;
+                }
+            },
+            methods: {
+                
+                shopping: function (item) {
+
+                    var ShoppingCarItem = { ProductId: item.ProductId, ProductImage: item.ProductImage, ProductName: item.ProductName, ProductPrice: item.ProductPrice, ProductQuantity: this.selected }
+                    alert('加入購物車');
+                    //debugger;
+                   /* $.ajax({
+                        url: '/api/Product/GetAllProduct',
+                        type: 'POST',
+                        data: '',
+                        async: true,
+                        success: function (response) {
+                            console.log(response);
+                            if (response.StatusCode == '1') {
+                                GetResponse(response.Result);
+                                BusyChange();
+
+
+                                $("#flipbook").turn({
+                                    width: 1200,
+                                    height: 800,
+                                    autoCenter: false
+                                });
+
+                            }
+                            else {
+                                跳出警告視窗
+                            }
+                        }
+                        
+                    });
+                    */
+
+                }
+
+            }
 
         });
     </script>

@@ -14,5 +14,8 @@ namespace OhLiveDinner.Models.ViewModels.Product
         public string ProductIntroduction { get; set; }
 
         public string ProductImage { get; set; }
+
+      
+        public string ProductKindName { get; set; }
     }
 }

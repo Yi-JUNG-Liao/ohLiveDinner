@@ -601,6 +601,7 @@
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\contact-form-script.js" />
     <Content Include="Assets\js\Controller\ShoppingCar.js" />
+    <Content Include="Assets\js\Controller\homeProduct.js" />
     <Content Include="Assets\js\Controller\TestProductList.js" />
     <Content Include="Assets\js\custom.js" />
     <Content Include="Assets\js\form-validator.min.js" />

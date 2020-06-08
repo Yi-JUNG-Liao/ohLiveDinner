@@ -18,5 +18,7 @@ namespace OhLiveDinner.Models.DatabaseEntityModels
         public int ProductKindId { get; set; }
 
         public int ProductStatusId { get; set; }
+
+        public string ProductKindName { get; set; }
     }
 }
