@@ -19,6 +19,6 @@ namespace MVC_Dashboard.Models
         {
         }
 
-        public System.Data.Entity.DbSet<MVC_Dashboard.Models.Member> Members { get; set; }
+        //public System.Data.Entity.DbSet<MVC_Dashboard.Models.Member> Members { get; set; }
     }
 }

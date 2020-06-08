@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -55,12 +58,21 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -123,24 +135,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIControllers\MemberController.cs" />
+    <Compile Include="APIControllers\ProductController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AboutsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MemberDataController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Models\DatabaseEntityModels\Member.cs" />
+    <Compile Include="Models\DatabaseEntityModels\Product.cs" />
+    <Compile Include="Models\DatabaseEntityModels\Product_ProductStatus.cs" />
+    <Compile Include="Models\DatabaseEntityModels\Product_PS_PK.cs" />
     <Compile Include="Models\Meal.cs" />
-    <Compile Include="Models\Member.cs" />
     <Compile Include="Models\MVC_DashboardContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OutUnitModels\OutApiModel.cs" />
+    <Compile Include="Models\ViewModels\Member_GetAll_OutputModel.cs" />
+    <Compile Include="Models\ViewModels\Product_GetAll_OutputModel.cs" />
+    <Compile Include="Models\ViewModels\Product_ProductStatus_OutputModel.cs" />
+    <Compile Include="Models\ViewModels\Product_PSPK_OutputModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\BussinessLogicLayer\MemberBLO.cs" />
+    <Compile Include="Repository\BussinessLogicLayer\ProductBLO.cs" />
+    <Compile Include="Repository\DatabaseAccessLayer\MemberDAO.cs" />
+    <Compile Include="Repository\DatabaseAccessLayer\ProductDAO.cs" />
     <Compile Include="ViewModel\MemberViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +174,15 @@
     <Content Include="Assets\image\bg_login.jpg" />
     <Content Include="Assets\image\dinner.jpg" />
     <Content Include="Assets\image\timg-_3_.jpg" />
+    <Content Include="Assets\js\MemberList.js" />
+    <Content Include="Assets\js\OrderList.js" />
+    <Content Include="Assets\js\ProductList.js" />
+    <Content Include="Assets\plugin\BootstrapVue\bootstrap-vue-icons.min.js" />
+    <Content Include="Assets\plugin\BootstrapVue\bootstrap-vue.min.css" />
+    <Content Include="Assets\plugin\BootstrapVue\bootstrap-vue.min.js" />
+    <Content Include="Assets\plugin\BootstrapVue\bootstrap.min.css" />
+    <Content Include="Assets\plugin\BootstrapVue\polyfill.min.js" />
+    <Content Include="Assets\plugin\BootstrapVue\vue.min.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -198,15 +233,9 @@
     <Content Include="Views\Abouts\AboutUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="APIControllers\" />
     <Folder Include="App_Data\" />
     <Folder Include="Assets\json\" />
-    <Folder Include="Assets\js\" />
     <Folder Include="Data\" />
-    <Folder Include="Models\DatabaseEntityModels\" />
-    <Folder Include="Models\ViewModels\" />
-    <Folder Include="Repository\BussinessLogicLayer\" />
-    <Folder Include="Repository\DatabaseAccessLayer\" />
     <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
@@ -240,7 +269,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>59791</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44332/</IISUrl>
+          <IISUrl>http://localhost:44332/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

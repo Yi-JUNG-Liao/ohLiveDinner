@@ -1,4 +1,7 @@
-﻿@section topCSS{
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section topCSS{
     <style>
         * {
             font-family: "Microsoft JhengHei";
@@ -10,23 +13,23 @@
             margin-top: 10px;
             margin-bottom: 20px;
         }
-        .search{
-            margin: 1% 0 2% 20%;
-            /*background-color: #d65106;*/
-            width:25rem;
-            border:1px solid #000;
-            border-radius: 20px;
+
+        .search {
+            margin: 20px 0 20px 20%;
         }
-        .search i{
-            font-size:2rem;
-            padding:1rem 0rem 1rem 2rem;
+        .addProduct{
+            margin:auto 10px;
         }
-            .search input {
-                border: 1px solid #ccc;
-                background-color: transparent;
-                width:auto;
-                color: black;
-            }
+        .addProduct button{
+            font-size:20px;
+            border:0px;
+        }
+
+        .input-group-text {
+            background-color: #000;
+        }
+
+
 
         .table {
             margin-left: auto;
@@ -63,68 +66,100 @@
 }
 
 <body>
-    
-    <h2>餐點資料</h2>
-    <div class="search">
-        <i class="fas fa-search"></i>
-        <input placeholder="搜尋"; />
+    @*<div class="search">
+            <i class="fas fa-search"></i>
+            <input placeholder="搜尋" ; />
+        </div>*@
+    <div class="row">
+        <div class="search">
+            <div class="input-group md-form form-sm form-1 pl-0">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-text1">
+                        <i class="fas fa-search text-white"
+                           aria-hidden="true"></i>
+                    </span>
+                </div>
+                <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </div>
+        <div class="addProduct">
+            <button>
+                新增餐點
+            </button>
+        </div>
     </div>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">餐點圖片</th>
-                <th scope="col">餐點名稱</th>
-                <th scope="col">餐點價錢</th>
-                <th scope="col">餐點種類</th>
-                <th scope="col">餐點狀態</th>
-                <th scope="col">餐點管理</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">田園蔬菜沙拉.jpg</th>
-                <td>田園蔬菜沙拉</td>
-                <td>$50</td>
-                <td>前菜</td>
-                <td>銷售中</td>
-                <td>
-                    <a>編輯餐點</a>
-                    <a>停售餐點</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">牛排.jpg</th>
-                <td>牛排</td>
-                <td>$150</td>
-                <td>主餐</td>
-                <td>銷售中</td>
-                <td>
-                    <a>編輯餐點</a>
-                    <a>停售餐點</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">提拉米蘇.jpg</th>
-                <td>提拉米蘇</td>
-                <td>$50</td>
-                <td>甜點</td>
-                <td>銷售中</td>
-                <td>
-                    <a>編輯餐點</a>
-                    <a>停售餐點</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">水蜜桃氣泡飲.jpg</th>
-                <td>水蜜桃氣泡飲</td>
-                <td>$0</td>
-                <td>飲品</td>
-                <td>銷售中</td>
-                <td>
-                    <a>編輯餐點</a>
-                    <a>停售餐點</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    
+    <div id="Product-list-area">
+
+        <b-table striped hover :items="ProductList"></b-table>
+
+
+    </div>
+
+
+    @*<h2>餐點資料</h2>*@
+    @*
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">餐點圖片</th>
+                    <th scope="col">餐點名稱</th>
+                    <th scope="col">餐點價錢</th>
+                    <th scope="col">餐點種類</th>
+                    <th scope="col">餐點狀態</th>
+                    <th scope="col">餐點管理</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">田園蔬菜沙拉.jpg</th>
+                    <td>田園蔬菜沙拉</td>
+                    <td>$50</td>
+                    <td>前菜</td>
+                    <td>銷售中</td>
+                    <td>
+                        <a>編輯餐點</a>
+                        <a>停售餐點</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">牛排.jpg</th>
+                    <td>牛排</td>
+                    <td>$150</td>
+                    <td>主餐</td>
+                    <td>銷售中</td>
+                    <td>
+                        <a>編輯餐點</a>
+                        <a>停售餐點</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">提拉米蘇.jpg</th>
+                    <td>提拉米蘇</td>
+                    <td>$50</td>
+                    <td>甜點</td>
+                    <td>銷售中</td>
+                    <td>
+                        <a>編輯餐點</a>
+                        <a>停售餐點</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">水蜜桃氣泡飲.jpg</th>
+                    <td>水蜜桃氣泡飲</td>
+                    <td>$0</td>
+                    <td>飲品</td>
+                    <td>銷售中</td>
+                    <td>
+                        <a>編輯餐點</a>
+                        <a>停售餐點</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>*@
 </body>
+@section endJS{
+
+    <script src="~/Assets/js/ProductList.js"></script>
+    
+}

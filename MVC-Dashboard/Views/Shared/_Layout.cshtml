@@ -9,65 +9,98 @@
     @Scripts.Render("~/bundles/chartjs")
     @Scripts.Render("~/bundles/modernizr")
     <link href="~/Assets/css/ManagerMain.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
           integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/plugin/BootstrapVue/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Assets/plugin/BootstrapVue/bootstrap-vue.min.css" />
+
+    <!-- Load polyfills to support older browsers -->
+    @*<script src="~/Assets/plugin/BootstrapVue/polyfill.min.js" crossorigin="anonymous"></script>*@
+
+    <!-- Load Vue followed by BootstrapVue -->
+    <script src="~/Assets/plugin/BootstrapVue/vue.min.js"></script>
+    <script src="~/Assets/plugin/BootstrapVue/bootstrap-vue.min.js"></script>
+
+    <!-- Load the following for BootstrapVueIcons support -->
+    <script src="~/Assets/plugin/BootstrapVue/bootstrap-vue-icons.min.js"></script>
+
     <style>
-        body{
+        body {
             padding: 0;
             margin: 0;
             list-style: none;
         }
 
+        a {
+            font-size: 1.5rem;
+            color: #000;
+        }
+
+            a:hover {
+                color: #fff;
+            }
+
+        h2 {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <div class="topbar">
         <div class="logoimg">
-            <h2>
-                <span>Live</span> Dinner
-            </h2>
+            <a href="/Home/Index">
+                <h2>
+                    <span>Live</span> Dinner
+                </h2>
+            </a>
             <!-- <img src="logo.png" alt=""> -->
         </div>
         <div class="list">
             <div class="ibg">
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="首頁">
                     @*<i class="fas fa-home"></i>*@
-                    @Html.ActionLink(" ", "Index", "Home", null, new { @class = "nav-link fas fa-home" })
-                </a> 
+                    @Html.ActionLink("首頁", "Index", "Home", null, new { @class = "nav-link" })
+                </a>
             </div>
             <div class="ibg">
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="餐點管理">
                     @*<i class="fas fa-utensils"></i>*@
-                    @Html.ActionLink(" ", "ProductsList", "Products", null, new { @class = "nav-link fas fa-utensils" })
+                    @Html.ActionLink("餐點管理", "ProductsList", "Products", null, new { @class = "nav-link" })
                 </a>
             </div>
             <div class="ibg">
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="訂單管理">
                     @*<i class="fas fa-clipboard-list"></i>*@
-                    @Html.ActionLink(" ", "OrdersList", "Orders", null, new { @class = "nav-link fas fa-clipboard-list" })
+                    @Html.ActionLink("訂單管理", "OrdersList", "Orders", null, new { @class = "nav-link" })
                 </a>
             </div>
             <div class="ibg">
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="會員管理">
                     @*<i class="fa fa-user-circle"></i>*@
-                    @Html.ActionLink(" ", "Index", "MemberData", null, new { @class = "nav-link fa fa-user-circle" })
+                    @Html.ActionLink("會員管理", "Index", "MemberData", null, new { @class = "nav-link" })
                 </a>
             </div>
         </div>
-       
+
         <div class="logout">
             <i class="fa fa-caret-down"></i>
         </div>
     </div>
-   
-        @RenderBody()
+
+    @RenderBody()
 
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
     @RenderSection("topCSS", required: false)
+    @RenderSection("endJS", required: false)
 </body>
 </html>
