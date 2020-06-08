@@ -72,48 +72,54 @@
         <i class="fas fa-search"></i>
         <input placeholder="搜尋" ; />
     </div>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">訂單編號</th>
-                <th scope="col">訂購會員</th>
-                <th scope="col">付款方式</th>
-                <th scope="col">訂單日期</th>
-                <th scope="col">消費金額</th>
-                <th scope="col">訂單狀態</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">Order001</th>
-                <td>Vicky</td>
-                <td>取餐支付</td>
-                <td>2020/05/21</td>
-                <td>$250</td>
-                <td>
-                    製作中
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Order002</th>
-                <td>Peter</td>
-                <td>信用卡支付</td>
-                <td>2020/05/24</td>
-                <td>$150</td>
-                <td>
-                    外送中
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Order003</th>
-                <td>Kevin</td>
-                <td>取餐支付</td>
-                <td>2020/05/26</td>
-                <td>$250</td>
-                <td>
-                    已完成
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="Order-list-area">
+
+        <b-table striped hover :items="OrderList"></b-table>
+
+
+    </div>
+    @*<table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">訂單編號</th>
+                    <th scope="col">訂購會員</th>
+                    <th scope="col">付款方式</th>
+                    <th scope="col">訂單日期</th>
+                    <th scope="col">消費金額</th>
+                    <th scope="col">訂單狀態</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Order001</th>
+                    <td>Vicky</td>
+                    <td>取餐支付</td>
+                    <td>2020/05/21</td>
+                    <td>$250</td>
+                    <td>
+                        製作中
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Order002</th>
+                    <td>Peter</td>
+                    <td>信用卡支付</td>
+                    <td>2020/05/24</td>
+                    <td>$150</td>
+                    <td>
+                        外送中
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Order003</th>
+                    <td>Kevin</td>
+                    <td>取餐支付</td>
+                    <td>2020/05/26</td>
+                    <td>$250</td>
+                    <td>
+                        已完成
+                    </td>
+                </tr>
+            </tbody>
+        </table>*@
 </body>
